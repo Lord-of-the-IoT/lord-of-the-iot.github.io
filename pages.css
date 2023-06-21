@@ -12,14 +12,23 @@
 }
 
 * { /* general rules */
- background-color: var(--grey);
- color: white;
- font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+  background-color: var(--grey);
+  color: white;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
 }
 
 h1 {
   color: var(--dark-blue);
   font-size: 65px;
+}
+
+img {
+  border-radius: 20%;
+}
+
+hr {
+  border-top: 2px solid var(--light-pink);
+  border-radius: 5px;
 }
 
 /* Add a black background color to the top navigation */
