@@ -1,0 +1,52 @@
+:root { /* colors */
+  --grey: #1c1c1c;
+  --light-grey: #383838;
+  --dark-grey: #121212;
+
+  --light-blue: #028ad4;
+  --dark-blue: #0710b8;
+  --light-pink: #f702e7;
+  --dark-pink: #9b00a1;
+  --light-purple: #ba02f7;
+  --dark-purple: #6700a3;
+}
+
+* { /* general rules */
+ background-color: var(--grey);
+ color: white;
+ font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
+
+h1 {
+  color: var(--dark-blue);
+  font-size: 65px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: var(--dark-grey);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  background-color: var(--dark-grey);
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: var(--light-pink);
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: var(--dark-purple);
+  color: white;
+}
