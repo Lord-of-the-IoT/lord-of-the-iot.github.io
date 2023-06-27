@@ -31,6 +31,12 @@ hr {
   border-radius: 5px;
 }
 
+/* Add a black background color to the footer */
+.footer {
+  background-color: var(--dark-grey);
+  overflow: hidden;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: var(--dark-grey);
