@@ -22,7 +22,7 @@ h1 {
   font-size: 65px;
 }
 
-a {
+.pre a {
   color: var(--light-pink);
   text-decoration: none;
 }
